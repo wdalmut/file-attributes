@@ -1,6 +1,6 @@
 {
   "name": "file-attributes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,10 @@
     "mock-fs": "^4.1.0"
   },
   "dependencies": {
-    "mkdirp": "^0.5.1",
-    "q": "^1.4.1"
+    "mkdirp": "^0.5.1"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/wdalmut/file-attributes.git"
   }
 }
