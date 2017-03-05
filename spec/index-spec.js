@@ -2,12 +2,6 @@ const kv = require('../');
 const mock = require('mock-fs');
 
 describe("FileAttributes", function() {
-  it("should exists", function() {
-    var a = kv("");
-
-    expect(a).toEqual(jasmine.any(kv));
-  });
-
   describe("Set", () => {
 
     beforeEach(() => {
